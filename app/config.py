@@ -5,8 +5,8 @@ class Settings(BaseSettings):
     APP_NAME: str = "AI Gesture TicTacToe"
     DEBUG: bool = True
     HOST: str = "0.0.0.0"
-    PORT: int = 8000
-    CORS_ORIGINS: list[str] = ["http://localhost:5173", "http://localhost:3000"]
+    PORT: int = 800
+    CORS_ORIGINS: list[str] = ["https://fun-game-two-azure.vercel.app/", "http://localhost:5173"]
     
     CAMERA_INDEX: int = 0
     FRAME_WIDTH: int = 640
