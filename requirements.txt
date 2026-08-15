@@ -2,4 +2,7 @@ fastapi
 uvicorn
 websockets
 pydantic
+pydantic-settings
 python-multipart
+numpy
+opencv-python-headless
